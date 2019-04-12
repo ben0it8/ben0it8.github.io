@@ -8,7 +8,7 @@ tag:
   - poetry
 image: >-
   https://raw.githubusercontent.com/ben0it8/poetry-language-model/master/pics/versgen.gif
-headerImage: true
+headerImage: false
 projects: true
 hidden: true
 description: Generate verses in the style of your favourite poet!
