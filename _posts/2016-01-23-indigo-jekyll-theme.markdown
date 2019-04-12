@@ -13,7 +13,7 @@ description: >-
 category: project
 author: johndoe
 externalLink: false
-published: false
+published: true
 ---
 
 [![poetry generator](https://github.com/ben0it8/poetry-language-model/blob/master/pics/versgen.gif?raw=true)](http://oddnumberofeyes.com/versgenerator/)
