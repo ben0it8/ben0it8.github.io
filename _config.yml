@@ -54,9 +54,10 @@ authors:
     olivera:
         name: Oliver Atanaszov
         bio: computational neurscience student & machine learning
-        #external-image: false
-        # picture: assets/images/profile.jpg
-        #        twitter: johndoe
+        external-image: false
+        picture: assets/images/profile.jpg
+        github: ben0it8
+        twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
