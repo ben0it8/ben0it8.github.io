@@ -3,9 +3,10 @@ title: Neural Poem Generation for the 2019 National Poetry Day
 layout: post
 date: '2019-04-01 10:00'
 tag:
-  - rnn
-  - language-model
   - poetry
+  - language model
+  - deep learning
+  - rnn
 image: >-
   https://raw.githubusercontent.com/ben0it8/poetry-language-model/master/pics/versgen.gif
 headerImage: false
