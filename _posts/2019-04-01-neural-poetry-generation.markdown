@@ -10,7 +10,7 @@ image: >-
   https://raw.githubusercontent.com/ben0it8/poetry-language-model/master/pics/versgen.gif
 headerImage: false
 projects: true
-hidden: true
+hidden: false
 description: Generate verses in the style of your favourite poet!
 category: project
 author: olivera
@@ -22,4 +22,3 @@ published: true
 The idea was to release a webapp where everyone can generate their _own_ verses in the style of a number of great Hungarian poets. This was achieved by training state-of-the-art neural language models on each author's complete life work, resulting in some intruiging lines. 
 If you are interested in training your own language models, check out the [project repository](https://github.com/ben0it8/poetry-language-model).
 To generate your own (Hungarian) poems click [here](http://oddnumberofeyes.com/versgenerator/)!
-
