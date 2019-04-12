@@ -8,7 +8,8 @@ tag:
   - transfer learning
 author: olivera
 category: project
-description: null
+description: Transfer Learning for neuroimaging to improve automated diagnostics
+date: '2019-03-10 16:48'
 ---
 # Transfer Learning for MRI
 This university project the the BCAN (Berlin Center for Advanced Neuroimaging) was focusing on improving compuer-aided diagnostics of neurodegenerative disease by applying transfer learning. Deep learning is an extremely efficient pattern recognition method, if and only if we have huge number of samples, however, for neuroimaging this if often not the case. Transfer learning aims to promote learning a new task though the transfer of knowledge from a related, but different task, that has already been learned.
