@@ -1,21 +1,22 @@
 ---
 title: Neural Poem Generation for the 2019 National Poetry Day
 layout: post
-date: '2016-01-23 22:10'
-tag: jekyll
-image: 'https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png'
+date: '2019-04-01 10:00'
+tag:
+  - rnn
+  - language-model
+  - poetry
+image: >-
+  https://raw.githubusercontent.com/ben0it8/poetry-language-model/master/pics/versgen.gif
 headerImage: true
 projects: true
 hidden: true
-description: >-
-  This is a simple and minimalist template for Jekyll for those who likes to eat
-  noodles.
+description: Generate verses in the style of your favourite poet!
 category: project
-author: johndoe
+author: olivera
 externalLink: false
 published: true
 ---
-
 [![poetry generator](https://github.com/ben0it8/poetry-language-model/blob/master/pics/versgen.gif?raw=true)](http://oddnumberofeyes.com/versgenerator/)
 
 The idea was to release a webapp where everyone can generate their _own_ verses in the style of a number of great Hungarian poets. This was achieved by training state-of-the-art neural language models on each author's complete life work, resulting in some intruiging lines. 
