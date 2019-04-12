@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Transfer Learning for MRI
 layout: post
 tag:
