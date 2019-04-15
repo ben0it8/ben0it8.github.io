@@ -1,0 +1,38 @@
+---
+published: true
+layout: post
+date: '2019-04-15 10:00'
+tag:
+  - optimization
+  - gaussian processes
+  - bayesian
+image: 'https://github.com/ben0it8/GPGO/blob/master/gpgo.gif?raw=true'
+projects: true
+description: >-
+  Efficient optimization of expensive-to-evaluate functions using Gaussian
+  Processes and Bayesian inference.
+category: project
+author: olivera
+title: Gaussian Processes for Global Optimization
+headerImage: true
+---
+Evaluating the objective function of a optimization problem can be _expensive_. Think of the objective function as the result of a lengthy simulation, the effectiveness of a drug or the loss of a _(deep)_ neural network over its hyperparameters. Obviously, it is important to reduce the number of evaluations needed to find the optimal solution. 
+
+Local optimizers or gradient descent methods offer limited guarantees and often yield local optimum. Naïve search methods are obviously not feasible in this case; line search requires a search space that grows exponentially with the number of dimensions, random search is simply not effective if we want to optimize a continuous function.
+
+One approach to this problem is to learn a model of the function and use it to propose promising parameter sets. The paper [_Gaussian Processes for Global Optimization_](http://www.robots.ox.ac.uk/~mosb/public/pdf/115/Osborne%20et%20al.%20-%202009%20-%20Gaussian%20processes%20for%20global%20optimization.pdf) (Osborne et. al 2009) proposes a powerful method to alleviate the optimization of such functions, using Guassian Processes and Bayesian Inference, framing optimization as a sequential decision making process.
+
+> **Abstract**. We introduce a novel Bayesian approach to global optimization using Gaussian  processes. We frame the optimization of both noisy
+and noiseless functions as sequential decision problems, and introduce
+myopic and non-myopic solutions to them. Here our solutions can be tailored to exactly the degree of confidence we require of them. The use of
+Gaussian processes allows us to benefit from the incorporation of prior
+knowledge about our objective function, and also from any derivative
+observations. Using this latter fact, we introduce an innovative method
+to combat conditioning problems. Our algorithm demonstrates a significant improvement over its competitors in overall performance across a
+wide range of canonical test problems.
+
+Within a university project offered by the Artificial Intelligence Group (lead Prof. Manfred Opper) at the TU Berlin, together with Aiko Pipo, Lukas Radke we implemented the GPGO algorithm described in the above paper and evaluated its performance against a strong baseline on a number of difficult test functions. The method proved to be highly effective (both in terms of accuracy and number of function evauations), especially if the observations about the objective function were corrupted by noise.
+
+Code (Python, Numpy) and demo notebooks: [https://github.com/ben0it8/GPGO](https://github.com/ben0it8/GPGO)
+
+Project report: soon
