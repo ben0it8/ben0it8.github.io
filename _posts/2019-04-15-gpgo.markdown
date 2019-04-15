@@ -20,7 +20,6 @@ headerImage: false
   <img width="500" height="300" src="https://github.com/ben0it8/GPGO/blob/master/gpgo.gif">
 </p>
 
-
 Evaluating the objective function of a optimization problem can be _expensive_. Think of the objective function as the result of a lengthy simulation, the effectiveness of a drug or the loss of a _(deep)_ neural network over its hyperparameters. Obviously, it is important to reduce the number of evaluations needed to find the optimal solution. 
 
 Local optimizers or gradient descent methods offer limited guarantees and often yield local optimum. Naïve search methods are obviously not feasible in this case; line search requires a search space that grows exponentially with the number of dimensions, random search is simply not effective if we want to optimize a continuous function.
