@@ -20,7 +20,7 @@ Evaluating the objective function of a optimization problem can be _expensive_. 
 
 Local optimizers or gradient descent methods offer limited guarantees and often yield local optimum. Naïve search methods are obviously not feasible in this case; line search requires a search space that grows exponentially with the number of dimensions, random search is simply not effective if we want to optimize a continuous function.
 
-One approach to this problem is to learn a model of the function and use it to propose promising parameter sets. The paper [_Gaussian Processes for Global Optimization_](http://www.robots.ox.ac.uk/~mosb/public/pdf/115/Osborne%20et%20al.%20-%202009%20-%20Gaussian%20processes%20for%20global%20optimization.pdf) (Osborne et. al 2009) proposes a powerful method to alleviate the optimization of such functions.
+One approach to this problem is to learn a model of the function and use it to propose promising parameter sets. The paper [_Gaussian Processes for Global Optimization_](http://www.robots.ox.ac.uk/~mosb/public/pdf/115/Osborne%20et%20al.%20-%202009%20-%20Gaussian%20processes%20for%20global%20optimization.pdf) (Osborne et. al 2009) proposes a powerful method to alleviate the optimization of such functions, using Guassian Processes and Bayesian Inference, framing optimization as a sequential decision making process.
 
 [![gaussian processes for global optimization](https://github.com/ben0it8/GPGO/blob/master/gpgo.gif?raw=true)](https://github.com/ben0it8/GPGO)
 
