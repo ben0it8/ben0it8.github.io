@@ -14,7 +14,7 @@ description: >-
 category: project
 author: olivera
 title: Gaussian Processes for Global Optimization
-headerImage: false
+headerImage: true
 ---
 Evaluating the objective function of a optimization problem can be _expensive_. Think of the objective function as the result of a lengthy simulation, the effectiveness of a drug or the loss of a _(deep)_ neural network over its hyperparameters. Obviously, it is important to reduce the number of evaluations needed to find the optimal solution. 
 
