@@ -22,8 +22,6 @@ Local optimizers or gradient descent methods offer limited guarantees and often 
 
 One approach to this problem is to learn a model of the function and use it to propose promising parameter sets. The paper [_Gaussian Processes for Global Optimization_](http://www.robots.ox.ac.uk/~mosb/public/pdf/115/Osborne%20et%20al.%20-%202009%20-%20Gaussian%20processes%20for%20global%20optimization.pdf) (Osborne et. al 2009) proposes a powerful method to alleviate the optimization of such functions, using Guassian Processes and Bayesian Inference, framing optimization as a sequential decision making process.
 
-[![gaussian processes for global optimization](https://github.com/ben0it8/GPGO/blob/master/gpgo.gif?raw=true)](https://github.com/ben0it8/GPGO)
-
 > **Abstract**. We introduce a novel Bayesian approach to global optimization using Gaussian  processes. We frame the optimization of both noisy
 and noiseless functions as sequential decision problems, and introduce
 myopic and non-myopic solutions to them. Here our solutions can be tailored to exactly the degree of confidence we require of them. The use of
