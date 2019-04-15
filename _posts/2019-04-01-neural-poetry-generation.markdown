@@ -6,7 +6,7 @@ tag:
   - poetry
   - language model
   - deep learning
-  - rnn
+  - nlp
 image: >-
   https://raw.githubusercontent.com/ben0it8/poetry-language-model/master/pics/versgen.gif
 headerImage: false
