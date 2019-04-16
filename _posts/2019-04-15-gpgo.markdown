@@ -31,6 +31,8 @@ observations. Using this latter fact, we introduce an innovative method
 to combat conditioning problems. Our algorithm demonstrates a significant improvement over its competitors in overall performance across a
 wide range of canonical test problems.
 
+![gpgo](https://github.com/ben0it8/GPGO/blob/master/gpgo.gif?raw=true)
+
 Within a university project offered by the Artificial Intelligence Group (lead Prof. Manfred Opper) at the TU Berlin, together with Aiko Pipo, Lukas Radke we implemented the GPGO algorithm described in the above paper and evaluated its performance against a strong baseline on a number of difficult test functions. The method proved to be highly effective (both in terms of accuracy and number of function evauations), especially if the observations about the objective function were corrupted by noise.
 
 Code (Python, Numpy) and demo notebooks: [https://github.com/ben0it8/GPGO](https://github.com/ben0it8/GPGO)
