@@ -12,6 +12,7 @@ description: This post demonstrates how to fine-tune a Transformer for sentiment
 category: project
 author: olivera
 headerImage: false
+title: "\U0001F916Transformer Fine-Tuning for Sentiment Analysis"
 ---
 See my post demonstrating how to fine-tune a powerful Transformer architecture end-to-end: 
 [🤖Transformer Fine-Tuning for Sentiment Analysis](https://medium.com/@ben0it8/transformer-fine-tuning-for-sentiment-analysis-c000da034bb5?source=friends_link&sk=19ce3ee5a08032c6417268fbce0437ee)
