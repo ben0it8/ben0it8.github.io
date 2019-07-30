@@ -18,5 +18,5 @@ See my post demonstrating how to fine-tune a powerful Transformer architecture e
 
 [🤖Transformer Fine-Tuning for Sentiment Analysis](https://medium.com/@ben0it8/transformer-fine-tuning-for-sentiment-analysis-c000da034bb5)
 
-![Fine-tuning on IMDB](https://cdn-images-1.medium.com/max/800/1*kgTulawYnKi7xkoiapWGgw.jpeg)
+![Fine-tuning on IMDB](https://miro.medium.com/max/1390/1*eRYxbIDw7PIP0jPU1NXSLQ.jpeg)
 
