@@ -18,7 +18,7 @@ resume-url: assets/resume.pdf
 
 url: https://ben0it8.github.io
 
-permalink: /:title/
+permalink: /:year/:month/:title
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-137376509-1'
@@ -113,39 +113,21 @@ compress_html:
 prose:
   rooturl: '_posts'
   siteurl: 'https://ben0it8.github.io/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'assets/images'
   ignore:
     - index.md
     - _config.yml
     - /_layouts
     - /_includes
-  metadata:
-      _posts:
-        - name: "layout"
-          field:
-            element: "hidden"
-            value: "post"
-        - name: "categories"
-          field:
-            element: "multiselect"
-            label: "Add Categories"
-            placeholder: "Add Categories"
-            alterable: true
-        - name: "title"
-          field:
-            element: "text"
-            label: "Post title"
-            placeholder: "Title"
-            alterable: true
-        - name: "image"
-          field:
-            element: "text"
-            label: "Add Image to Post"
-            placeholder: "Image path (relative to /assets/post-images/)"
-            alterable: true
-        - name: "excerpt_separator"
-          field:
-            element: "hidden"
-            value: "<!--more-->"    
+    metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
 
 exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
