@@ -115,7 +115,6 @@ prose:
   siteurl: 'https://ben0it8.github.io/'
   media: 'assets/images'
   ignore:
-    - index.md
     - _config.yml
     - /_layouts
     - /_includes
