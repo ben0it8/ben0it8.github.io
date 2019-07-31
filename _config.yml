@@ -18,7 +18,7 @@ resume-url: assets/resume.pdf
 
 url: https://ben0it8.github.io
 
-permalink: /:year/:month/:title
+permalink: /:title
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-137376509-1'
