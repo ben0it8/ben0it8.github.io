@@ -114,11 +114,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'https://ben0it8.github.io/'
   media: 'assets/images'
-  ignore:
-    - _config.yml
-    - /_layouts
-    - /_includes
-    metadata:
+  metadata:
     _posts:
       - name: "published"
         field:
