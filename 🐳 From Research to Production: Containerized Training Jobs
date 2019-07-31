@@ -11,7 +11,7 @@ projects: true
 description: End-to-end Transformer fine-tuning for for sentiment analysis.
 category: project
 author: olivera
-headerImage: true
+headerImage: false
 title: null
 ---
 ![post request](https://miro.medium.com/max/1324/1*-Z86zSOREhJrvB5TWgwArQ.gif)
