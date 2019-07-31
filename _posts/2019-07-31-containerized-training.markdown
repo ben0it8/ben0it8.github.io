@@ -1,8 +1,9 @@
 ---
+excerpt_separator: <!--more-->
 layout: blog
-published: true
+published: false
 publish: true
-title: null
+title: "\U0001F433From Research to Production: Containerized Training Jobs"
 project: true
 ---
 ![post request](https://miro.medium.com/max/1324/1*-Z86zSOREhJrvB5TWgwArQ.gif)
