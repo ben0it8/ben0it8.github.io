@@ -1,4 +1,5 @@
 ---
+layout: blog
 published: true
 publish: true
 title: null
